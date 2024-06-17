@@ -10,9 +10,9 @@
 
 Release date: *14-06-2024*
 
- | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch) |
- | --------- | ------------------------ | ------------------------------------------------------- | ------------------------------ |
- | All ZGW   | Redis cache optimization | ZTC should not throw an error when importing case types | Geen                           |
+ | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch)                                               |
+ | --------- | ------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
+ | All ZGW   | Redis cache optimization | ZTC should not throw an error when importing case types | 	Bij het importeren van zaaktypes trad vaak een fout op. Dit is nu opgelost |
 
 ## 2024.06.3
 
