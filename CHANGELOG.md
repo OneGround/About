@@ -7,7 +7,7 @@
   - [2024.06.2](#2024062)
   - [2024-05-28.5](#2024-05-285)
 
-## 2024.06.8 Better Ceph logging and authorisation
+## 2024.06.8 ## Better Ceph logging and authorisation
 
 Release date: *18-06-2024*
 
