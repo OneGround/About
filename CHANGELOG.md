@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [2024.06.8](#2024068)
   - [2024.06.4](#2024064)
   - [2024.06.3](#2024063)
   - [2024.06.2](#2024062)
@@ -12,8 +13,8 @@ Release date: *18-06-2024*
 
  | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch)                                               |
  | --------- | ------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
- | DRC   | Ceph library | The library for accessing Ceph (document storage) is updated to the newest version. This should improve the error logging. | 	Geen |
- | ZCA   | Authorisation | The authorisation in ZCA now is entirely based on modules on/off in RAB and permissions from RAB. | Het ZSDMS-menu is nu alleen benaderbaar voor gebuikers met de juiste permissie (functioneel beheer) en alleen zichtbaar als uw organisatie de ZSDMS-module heeft afgenomen |
+ | DRC   | Ceph library | The library for accessing Ceph, used for document storage, is updated to the newest version. This should improve error logging | 	Geen |
+ | ZCA   | Authorisation | The authorisation in ZCA now is entirely based on the activated modules in RAB and user permissions from RAB. | Het ZSDMS-menu is nu alleen benaderbaar voor gebuikers met de permissie functioneel beheer en alleen zichtbaar als uw organisatie de ZSDMS-module heeft afgenomen |
  | ZCA | Home page | There is a home page in ZCA in which the permissions and available modules in Fundament are displayed | Er is nu een landingspagina waarin de gebruiker permissies en modules van Fundament ziet|   
 
 ## 2024.06.4
