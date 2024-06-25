@@ -1,29 +1,40 @@
 # Changelog
 
 - [Changelog](#changelog)
-  - [2024.06.8](#2024068)
+  - [2024.06.12: ZSDMS Synchronization Fix \& ZCA UI improvements](#20240612-zsdms-synchronization-fix--zca-ui-improvements)
+  - [2024.06.8: Better Ceph logging and authorization on UI functions](#2024068-better-ceph-logging-and-authorization-on-ui-functions)
   - [2024.06.4](#2024064)
   - [2024.06.3](#2024063)
   - [2024.06.2](#2024062)
   - [2024-05-28.5](#2024-05-285)
 
-## 2024.06.8 <a name="2024068"></a> Better Ceph logging and authorisation on UI functions
+## 2024.06.12: ZSDMS Synchronization Fix & ZCA UI improvements
+
+Release date: *25-06-2024*
+
+| Component | Release item           | Implication for consumers of the Api's (english)                                                       | Functional implication (dutch)                                                                                                              |
+| --------- | ---------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSV       | Authorization          | Resolved synchronization issues in ZSDMS by fixing the authorization between internal Roxit services.  | In 2024.06.8 release is in ZSDMS een fout ontstaan en veroorzaakte dat GetDocumentMetaDataAsync niet meer functioneerde. Dit is nu opgelost |
+| ZCA       | Secret View/Edit panel | Introduced new panel design for secret: added authorizations form, redesigned actions buttons.         | Geen                                                                                                                                        |
+| ZCA       | Secret List panel      | Added more columns to the table: authorizations column & information about last modifications columns. | Geen                                                                                                                                        |
+
+## 2024.06.8: Better Ceph logging and authorization on UI functions
 
 Release date: *18-06-2024*
 
- | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch)                                               |
- | --------- | ------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
- | DRC   | Ceph library | The library for accessing Ceph, used for document storage, is updated to the newest version. This should improve error logging | 	Geen |
- | ZCA   | Authorisation | The authorisation in ZCA now is entirely based on the activated modules in RAB and user permissions from RAB. | Het ZSDMS-menu is nu alleen benaderbaar voor gebuikers met de permissie functioneel beheer en alleen zichtbaar als uw organisatie de ZSDMS-module heeft afgenomen |
- | ZCA | Home page | There is a home page in ZCA in which the permissions and available modules in Fundament are displayed | Er is nu een landingspagina waarin de gebruiker permissies en modules van Fundament ziet|   
+ | Component | Release item  | Implication for consumers of the Api's (english)                                                                               | Functional implication (dutch)                                                                                                                                    |
+ | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+ | DRC       | Ceph library  | The library for accessing Ceph, used for document storage, is updated to the newest version. This should improve error logging | Geen                                                                                                                                                              |
+ | ZCA       | Authorization | The authorization in ZCA now is entirely based on the activated modules in RAB and user permissions from RAB.                  | Het ZSDMS-menu is nu alleen benaderbaar voor gebuikers met de permissie functioneel beheer en alleen zichtbaar als uw organisatie de ZSDMS-module heeft afgenomen |
+ | ZCA       | Home page     | There is a home page in ZCA in which the permissions and available modules in Fundament are displayed                          | Er is nu een landingspagina waarin de gebruiker permissies en modules van Fundament ziet                                                                          |
 
 ## 2024.06.4
 
 Release date: *14-06-2024*
 
- | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch)                                               |
- | --------- | ------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
- | All ZGW   | Redis cache optimization | ZTC should not throw an error when importing case types | 	Bij het importeren van zaaktypes trad vaak een fout op. Dit is nu opgelost |
+ | Component | Release item             | Implication for consumers of the Api's (english)        | Functional implication (dutch)                                             |
+ | --------- | ------------------------ | ------------------------------------------------------- | -------------------------------------------------------------------------- |
+ | All ZGW   | Redis cache optimization | ZTC should not throw an error when importing case types | Bij het importeren van zaaktypes trad vaak een fout op. Dit is nu opgelost |
 
 ## 2024.06.3
 
