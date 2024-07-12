@@ -15,7 +15,7 @@ Release date: *26-06-2024*
 
 | Component | Release item                | Implication for consumers (English)                                            | Functional implication (Dutch)                                                                                  |
 | --------- | --------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| ZCA       | When an IOT was added to a published ZT (a so called 'correction') the cache was not updated leading to an error when a doucment with the IOT was related to a case with the ZT | Probleem opgelost bij het terugschrijven van het bewijsrapport van Validsign |
+| ZTC       | When an IOT was added to a published ZT (a so called 'correction') the cache was not updated leading to an error when a doucment with the IOT was related to a case with the ZT | Probleem opgelost bij het terugschrijven van het bewijsrapport van Validsign |
 
 ## 2024.06.14: ZCA UI fixes
 
