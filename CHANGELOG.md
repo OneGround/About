@@ -1,6 +1,7 @@
 # Changelog
 
 - [Changelog](#changelog)
+  - [2024.07.12: Caching bug in ZT - IOT relationship solved](#20240712-caching-bug-in-zt---iot-relationship-solved)
   - [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
   - [2024.06.12: ZSDMS Synchronization Fix \& ZCA UI improvements](#20240612-zsdms-synchronization-fix--zca-ui-improvements)
   - [2024.06.8: Better Ceph logging and authorization on UI functions](#2024068-better-ceph-logging-and-authorization-on-ui-functions)
@@ -11,14 +12,13 @@
 
 ## 2024.07.12: Caching bug in ZT - IOT relationship solved
 
-Release date: *26-06-2024*
+Release date: *15-07-2024*
 
 | Component | Implication for consumers (English)                                            | Functional implication (Dutch)                                                                                  |
 | --------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | ZTC       | When an IOT was added to a published ZT (a so called 'correction') the cache was not updated leading to an error when a document with the IOT was related to a case with the ZT | Probleem opgelost bij het terugschrijven van het bewijsrapport van Validsign |
 | ZTC       | When there was a caching error, the change on ZTC was also not committed. Now the change is processed in the database regardless an error in the cache. | Probleem opgelost bij het aanmaken van een nieuwe versie van het zaaktype |
 | ZCA       |  | Er is nu nog maar één menu-item voor het maken van autorisaties. Dit is geintegreerd met de functie om ClientID's aan te maken en te beheren. |
-
 
 ## 2024.06.14: ZCA UI fixes
 
