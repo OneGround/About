@@ -16,8 +16,8 @@ Release date: *26-06-2024*
 | Component | Implication for consumers (English)                                            | Functional implication (Dutch)                                                                                  |
 | --------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | ZTC       | When an IOT was added to a published ZT (a so called 'correction') the cache was not updated leading to an error when a document with the IOT was related to a case with the ZT | Probleem opgelost bij het terugschrijven van het bewijsrapport van Validsign |
-| ZTC       | When there was a caching error, the change on ZTC was also not committed. Now the change is processed in the database regardless an error in the cache. | Probleem opgelost bij het aanmaken van een nieuwe zaaktype |
-| ZCA       |  | Er is nu nog maar één menu item voor het maken van autorisaties. Dit is geintegreerd met de functie om ClientID's aan te maken en te beheren. |
+| ZTC       | When there was a caching error, the change on ZTC was also not committed. Now the change is processed in the database regardless an error in the cache. | Probleem opgelost bij het aanmaken van een nieuwe versie van het zaaktype |
+| ZCA       |  | Er is nu nog maar één menu-item voor het maken van autorisaties. Dit is geintegreerd met de functie om ClientID's aan te maken en te beheren. |
 
 
 ## 2024.06.14: ZCA UI fixes
