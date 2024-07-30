@@ -1,11 +1,11 @@
 # Changelog
 
 Recent changes
-  - [2024.07.30: Logging 403-errors (no permission) improved](#20240730-Logging-403-errors-improved)
-  - [2024.07.12: Caching bug in ZT - IOT relationship solved](#20240712-caching-bug-in-zt---iot-relationship-solved)
+  - [2024.07.6: Logging 403-errors (no permission) improved](#20240730-Logging-403-errors-improved)
+  - [2024.07.4: Caching bug in ZT - IOT relationship solved](#20240712-caching-bug-in-zt---iot-relationship-solved)
   - [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
 
-## 2024.07.30: Logging 403 errors improved
+## 2024.07.6: Logging 403 errors improved
 
 Release date: *30-07-2024*
 
@@ -14,7 +14,7 @@ Release date: *30-07-2024*
 | All Api's       | When an application is not authorized, the ClientID is now logged | Als externe applicaties als Digeplan geen toegang hebben kan nu makkelijker gevonden wat de oorzaak is |
 
 
-## 2024.07.12: Caching bug in ZT - IOT relationship solved
+## 2024.07.4: Caching bug in ZT - IOT relationship solved
 
 Release date: *15-07-2024*
 
