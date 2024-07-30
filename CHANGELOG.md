@@ -10,9 +10,10 @@ Recent changes
 
 Release date: *30-07-2024*
 
-| Component | Relevance for consumers (English)                                 | Relevance for end users (Dutch)                                                                        |
-| --------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| All Api's | When an application is not authorized, the ClientID is now logged | Als externe applicaties als Digeplan geen toegang hebben kan nu makkelijker gevonden wat de oorzaak is |
+| Component | Relevance for consumers (English)                                      | Relevance for end users (Dutch)                                                                        |
+| --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| All Api's | When an application is not authorized, the ClientID is now logged      | Als externe applicaties als Digeplan geen toegang hebben kan nu makkelijker gevonden wat de oorzaak is |
+| ZCA       | Fixed redirection to the home from old url `/zgw-configuration-module` |                                                                                                        |
 
 ## 2024.07.4: Caching bug in ZT - IOT relationship solved
 
