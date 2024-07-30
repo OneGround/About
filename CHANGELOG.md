@@ -1,7 +1,7 @@
 # Changelog
 
 Recent changes
-  - [2024.07.30: logging 403-errors (no permission) improved ](# 2024.07.30: Logging 403 errors improved)
+  - [2024.07.30: Logging 403-errors (no permission) improved](#20240730-Logging-403-errors-improved)
   - [2024.07.12: Caching bug in ZT - IOT relationship solved](#20240712-caching-bug-in-zt---iot-relationship-solved)
   - [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
 
