@@ -1,7 +1,7 @@
 # Fundament
 
 - [Changelog](./CHANGELOG.md)
-- [Api Vesrions supported](./ApiVersions.md)
+- [Api Versions supported](./ApiVersions.md)
 
 ## About
 
