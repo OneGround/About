@@ -2,7 +2,7 @@
 
 - [Changelog](./CHANGELOG.md)
 - [Api Versions supported](./ApiVersions.md)
-- [Usage of version headers in Fundament](./ApiVersions.md)
+- [Usage of version headers in Fundament](./VersionHeader.md)
 
 ## What is Fundament
 
