@@ -1,24 +1,24 @@
 # Versions of ZGW Api's supported by Fundament
 
 ## AC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.0|🟢 Active|2023-01-01||
 
 ## NRC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.0|🟢 Active|2023-01-01||
 
 ## DRC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.1|🟠 Maintenance|2023-01-01||
 |1.1.0|🟠 Maintenance|2023-01-01||
 |1.5.0|🟢 Active|2024-04-18||
 
 ## ZRC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.1|🟠 Maintenance|2023-01-01||
 |1.2.0|🟠 Maintenance|2023-01-01||
@@ -26,12 +26,12 @@
 
 
 ## BRC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.2|🟢 Active|2023-01-01||
 
 ## ZTC
-|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|**Version**|**Support**|**Release**|**End of life**|
 |------------|------------|-----------------|---------------------|
 |1.0.0|🟢 Active|2023-01-01||
 |1.3.1|⚫ Future|expected 2024-09-19||
@@ -49,6 +49,6 @@
 
 ⚫ **Future**  - the version scheduled for deployment, which may be partially deployed in the current version.
   
-<em>Release date</em> is the date at which Fundament started to support the vesrion in production. Subsequent changes (under the same Api version) can be found in the changelog.
+<em>Release</em> is the date at which Fundament started to support the vesrion in production. Subsequent changes (under the same Api version) can be found in the changelog.
 
 <em>End of Life</em> is the (expected) termination of support
