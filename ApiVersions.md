@@ -7,4 +7,4 @@
 
 
 ## Version explanation:
-Version numbers refer to the standard of VNG Standart [VNG Standard](https://vng-realisatie.github.io/gemma-zaken/standaard/).
+Version numbers refer to the standard of the [VNG Standard](https://vng-realisatie.github.io/gemma-zaken/standaard/).
