@@ -33,7 +33,7 @@ Fundament comes in two ways: attended and unattended. Attended is the full Saas 
 In order to use Fundament you only have to contact Roxit and request a login account for the configuration tool. In the configuration tool, you can configure ClientID's and secrets, authorise them and  immediately apply them to a Client application such as Open Forms. Immediately you can start working with documents and cases in Fundament, and share them with your other applications that run on Fundament. The only prerequisite for using Fundament is an RSIN: the KvK (chamber of commerce) identification of your organisation. 
   
 ### High performance
-99% of ZGW Api requests are handled by Fundament within 50 milliseconds. Most calls that do take longer are related to uploading or downloading documents. Fundament runs on Docker (except for document storage which is on the Ceph file system) so that extra nodes running Fundament can be added easily. The system is monitored continuously and performance degradations are noticed fast en solved fast.
+99% of ZGW Api requests are handled by Fundament within 50 milliseconds. Most calls that do take longer are related to uploading or downloading documents or expand requests that return large data sets. Fundament runs on Docker, except for document storage which is on the Ceph file system. this set up ensures that extra nodes can be added easily when needed. The system is monitored continuously and performance degradations are noticed fast so that they can be solved timely.
 
 ### No limit on document size
 By applying the DRC 1.1 notion of <em>file parts</em> (bestandsdelen), documents of any size can be stored and retrieved.
