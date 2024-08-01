@@ -1,11 +1,40 @@
-# Versions of ZGW APIs supported by Fundament
+# Versions of ZGW Api's supported by Fundament
 
 ## AC
 |**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
 |------------|------------|-----------------|---------------------|
-|1.0.0|🟢 Active|||
+|1.0.0|🟢 Active|2023-01-01||
+
+## NRC
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|------------|------------|-----------------|---------------------|
+|1.0.0|🟢 Active|2023-01-01||
+
+## DRC
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|------------|------------|-----------------|---------------------|
+|1.0.1|🟠 Maintenance|2023-01-01||
+|1.1.0|🟠 Maintenance|2023-01-01||
+|1.5.0|🟢 Active|2024-04-18||
+
+## ZRC
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|------------|------------|-----------------|---------------------|
+|1.0.1|🟠 Maintenance|2023-01-01||
+|1.2.0|🟠 Maintenance|2023-01-01||
+|1.5.1|🟢 Active|2024-04-18||
 
 
+## BRC
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|------------|------------|-----------------|---------------------|
+|1.0.2|🟢 Active|2023-01-01||
+
+## ZTC
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|------------|------------|-----------------|---------------------|
+|1.0.0|🟢 Active|2023-01-01||
+|1.3.1|⚫ Future|expected 2024-09-19||
 
 ## Explanation:
 <em>Version</em> refers to the versions in the [VNG Standard](https://vng-realisatie.github.io/gemma-zaken/standaard/)
@@ -16,9 +45,9 @@
 
 🟠 **Maintenance** - the version that is currently deployed but is scheduled for removal.
 
-⚫ **End of Life** - the version that has been removed and will no longer receive support.
+🔴 **End of Life** - the version that has been removed and will no longer receive support.
 
-🔴 **Future**  - the version scheduled for deployment, which may be partially deployed in the current version.
+⚫ **Future**  - the version scheduled for deployment, which may be partially deployed in the current version.
   
 <em>Release date</em> is the date at which Fundament started to support the vesrion in production. Subsequent changes (under the same Api version) can be found in the changelog.
 
