@@ -10,9 +10,6 @@ It contains ZTC, ZRC, DRC, BRC, NC, AC and reference lists.
 
 Fundament comes in two ways: attended and unattended. Attended is the full Saas variant currently available. Unattended is the Open Source variant which will be released later. 
 
-## Usage of Fundament (attended)
-
-
 ## Characteristics of Fundament (attended)
 - Fast onboarding
   
