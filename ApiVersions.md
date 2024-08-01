@@ -3,7 +3,7 @@
 ## AC
 |**Version**|**Support**|**Release**|**End of life**|
 |-----------|-----------|-----------|---------------|
-|1.0.0|🟢 Active|2023-01-01||
+|1.0.0| Active|2023-01-01||
 
 ## NRC
 |**Version**|**Support**|**Release**|**End of life**|
