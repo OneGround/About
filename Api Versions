@@ -1,72 +1,10 @@
-# ZGW Standard versions supported by Fundament
-
-# Versions of ZGW APIs
+# Versions of ZGW APIs supported by Fundament
 
 ## AC
-- **Version:** 1.0.0 
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** -
+|**Version:**|**Support:**|**Release date:**|**End-of-life date:**|
+|1.0.0|⬤ Active|||
 
-## NRC
-- **Version:** 1.0.0 
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** -
 
-## DRC
-- **Version:** 1.0.1
-  - **Support:** ⬤ Maintenance
-  - **Release date:** 10 mei 2024
-  - **End-of-life date:** -
-- **Version:** 1.1.0
-  - **Support:** ⬤ Maintenance
-  - **Release date:** 10 mei 2024
-  - **End-of-life date:** -
-- **Version:** 1.5.0
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** -
-
-## ZRC
-- **Version:** 1.0.1
-  - **Support:** ⬤ Maintenance
-  - **Release date:** 10 mei 2024
-  - **End-of-life date:** -
-- **Version:** 1.2.0
-  - **Support:** ⬤ Maintenance
-  - **Release date:** 10 mei 2024
-  - **End-of-life date:** -
-- **Version:** 1.5.1
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** -
-
-## BRC
-- **Version:** 1.0.2
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** -
-
-## ZTC
-- **Version:** 1.0.0
-  - **Support:** ⬤ Active
-  - **Release date:** -
-  - **End-of-life date:** 1 aug. 2024
-- **Version:** 1.2.0
-  - **Support:** ⬤ Active
-  - **Release date:** - 	
-  - **End-of-life date:** 1 aug. 2024
-- **Version:** 1.3.1
-  - **Support:** ⬤ Future
-  - **Release date:** 01-07-2024 (expected)
-  - **End-of-life date:** -
-
-## Support explanation:
-- ⬤ **Active** - the current version that is deployed and actively supported.
-- ⬤ **Maintenance** - the version that is currently deployed but is scheduled for removal.
-- ⬤ **End of Life** - the version that has been removed and will no longer receive support.
-- ⬤ **Future**  - the version scheduled for deployment, which may be partially deployed in the current version.
 
 ## Version explanation:
 Version numbers refer to the standard of VNG Standart [VNG Standard](https://vng-realisatie.github.io/gemma-zaken/standaard/).
