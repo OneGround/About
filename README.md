@@ -1,7 +1,10 @@
 # About Fundament
 
+- [What is Fundament](#what-is-fundament)
 - [Changelog](./CHANGELOG.md)
 - [Api Versions supported](./ApiVersions.md)
+- [Use of ClientID's on Fundament](./ClientID.md)
+- [Apply authorisations to ClientId's](./Authorisation.md)
 - [Usage of version headers in Fundament](./VersionHeader.md)
 
 ## What is Fundament
