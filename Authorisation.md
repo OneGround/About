@@ -8,7 +8,9 @@ When a client application calls a ZGW Api, it's bearer token is checked and the 
 ## How to create applications/authorisations
 Authorisations vcan be added using the configuration tool of Fundament. 
 We advice to use only one ClientID per Application so that you can adjust authorisations per application if needed.
-We also advice to restrict authorisations as much as possible to prevent unwanted effects. For example, if an aplication has permission for deletion of cases, it can delete all cases in your Fundament.
+We also advice to restrict authorisations as much as possible to prevent unwanted effects. For example, if an aplication has 'all authorisations', it also has permission for deletion of all cases.
+
+The tool helps you in creating a meaningful authorisation by providing suggestions in the form of "authorisation profiles".
 
 ## Limitations of the Fundament configuration tool
 Our tool only supports only one ClientID per application (whereas the api's allow multiple ClientID's) so that configuraton is as easy and clear as possible.  
