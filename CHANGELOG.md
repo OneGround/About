@@ -2,6 +2,7 @@
 
 Recent changes
 
+- [2024.08.10: ZSecurity patch](#20240810-Security-patch)
 - [2024.08.6: ZCA client applications for Fundament users](#2024086-ZCA-client-applications-for-Fundament-users)
 - [2024.07.6: Logging 403-errors (no permission) improved](#2024076-logging-403-errors-improved)
 - [2024.07.4: Caching bug in ZT - IOT relationship solved](#2024074-caching-bug-in-zt---iot-relationship-solved)
