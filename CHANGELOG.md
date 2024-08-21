@@ -7,6 +7,14 @@ Recent changes
 - [2024.07.4: Caching bug in ZT - IOT relationship solved](#2024074-caching-bug-in-zt---iot-relationship-solved)
 - [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
 
+## 2024.08.10: Security patch
+Release date: *21-08-2024*
+
+| Component | Relevance for consumers (English)                                      | Relevance for end users (Dutch)                                                                        |
+| --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| All modules | Removed three vulnerabilities | |
+
+
 ## 2024.08.6: ZCA client applications for Fundament users
 Release date: *20-08-2024*
 
