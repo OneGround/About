@@ -2,25 +2,26 @@
 
 Recent changes
 
-- [2024.08.10: Security patch](#20240810-Security-patch)
-- [2024.08.6: ZCA client applications for Fundament users](#2024086-ZCA-client-applications-for-Fundament-users)
+- [2024.8.10: Security patch](#2024810-security-patch)
+- [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
 - [2024.07.6: Logging 403-errors (no permission) improved](#2024076-logging-403-errors-improved)
 - [2024.07.4: Caching bug in ZT - IOT relationship solved](#2024074-caching-bug-in-zt---iot-relationship-solved)
 - [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
 
-## 2024.08.10: Security patch
+## 2024.8.10: Security patch
+
 Release date: *21-08-2024*
 
-| Component | Relevance for consumers (English)                                      | Relevance for end users (Dutch)                                                                        |
-| --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| All modules | Removed three vulnerabilities | |
+| Component   | Relevance for consumers (English) | Relevance for end users (Dutch) |
+| ----------- | --------------------------------- | ------------------------------- |
+| All modules | Removed three vulnerabilities     |                                 |
 
+## 2024.8.6: ZCA client applications for Fundament users
 
-## 2024.08.6: ZCA client applications for Fundament users
 Release date: *20-08-2024*
 
-| Component | Relevance for consumers (English)                                      | Relevance for end users (Dutch)                                                                        |
-| --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Component   | Relevance for consumers (English)                                                                                          | Relevance for end users (Dutch)                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | All modules | Fundament users now have access to the ZCA UI in which they can configure their own ClientID's, secrets and authorisations | Fundamentgebruikers hebben nu toegang tot de ZCA-tool waarin ze zelf ClientID's, secrets en autorisaties kunnen configureren |
 
 ## 2024.07.6: Logging 403 errors improved
