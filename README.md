@@ -6,6 +6,7 @@
 - [Use of ClientID's on Fundament](./ClientID.md)
 - [Apply authorisations to ClientId's](./Authorisation.md)
 - [Usage of version headers in Fundament](./VersionHeader.md)
+- [Example doucment upload](./example documentupload.md)
 
 ## What is Fundament
 
