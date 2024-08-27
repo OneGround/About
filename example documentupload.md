@@ -1,4 +1,4 @@
-Attached is a Postmanfile with an example sequence for documentupload in parts (bestandsdelen).
+Attached is an example [Postman project](./examplepm.json) with a sequence for document upload in parts (bestandsdelen).
 
 Please pay attention to the following:
 
