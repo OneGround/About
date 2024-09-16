@@ -7,6 +7,7 @@
 - [Apply authorisations to ClientId's](./Authorisation.md)
 - [Usage of version headers in Fundament](./VersionHeader.md)
 - [Example document upload](./exampledocumentupload.md)
+- [Problems in and solutions for ZTC 1.3](./ztc1_3problemsandsolutions.md)
 
 ## What is Fundament
 
