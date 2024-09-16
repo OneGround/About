@@ -1,8 +1,8 @@
-#Problems in and solutions for ZTC 1.3
+# Problems in and solutions for ZTC 1.3
 
-There are many problems with ZTC 1.3
-For number of them, we have posted issues on [Github for ZGW](https://github.com/VNG-Realisatie/gemma-zaken/issues).
-Below the issues and how various Roxit components (should) deal with them. 
+There are numerous problems within the standard ZTC 1.3.
+For some of these problems, we have posted issues on [Github for ZGW](https://github.com/VNG-Realisatie/gemma-zaken/issues).
+In the table below we list the Github issues and indicate how various Roxit components (should) deal with them. 
 
 | Problem (short) | Github issue | Solution in ZTC registration component itself | Solution in ZRC, BRC or DRC | Solution in ZTC config app (PMA process, casetype management) | Solution in client app |
 |-----------------|--------------|-------------------------------------------------|-------------------------------|-------------------------------------------------------------------|-------------------------|
