@@ -1,10 +1,12 @@
+#Problems in and solutions for ZTC 1.3
+
 There are many problems with ZTC 1.3
 For number of them, we have posted issues on [Github for ZGW](https://github.com/VNG-Realisatie/gemma-zaken/issues).
 Below the issues and how various Roxit components (should) deal with them. 
 
 | Problem (short) | Github issue | Solution in ZTC registration component itself | Solution in ZRC, BRC or DRC | Solution in ZTC config app (PMA process, casetype management) | Solution in client app |
 |-----------------|--------------|-------------------------------------------------|-------------------------------|-------------------------------------------------------------------|-------------------------|
-| Double relationship: BT-> ZT on BT and ZT-> BT on ZT | #2475 | Relationship BT-> ZT is not stored (or retrieved) | When creating or updating a Besluit with a related case, check whether the casetype of the case is related to the besluittype of besluit | Only allow config on ZT->BT. Do not give the possibility BT-> ZT | Retrieve possible BT's by a GET on ZT. The get on BT will not return ZT's |
+| Double relationship: BT-> ZT on BT and ZT-> BT on ZT | [#2475](https://github.com/VNG-Realisatie/gemma-zaken/issues/2475) | Relationship BT-> ZT is not stored (or retrieved) | When creating or updating a Besluit with a related case, check whether the casetype of the case is related to the besluittype of besluit | Only allow config on ZT->BT. Do not give the possibility BT-> ZT | Retrieve possible BT's by a GET on ZT. The get on BT will not return ZT's |
 | Which URL's of related ZT, BT or IOT (here related type or "RT") are returned in GET on BT, ZT, ZIOT and IOT (here objecttype or "OT") | #2474 | "Return the following url's of RT: - OT has a relationship with RT; - RT has concept=false; - begingeldigheid of RT <= today; - eindegeldigheid of RT is empty or > today." | - | If the name (= description, identification) of RT also is available in the response - show that. Otherwise do a GET on the RT and show its name. | - |
 | ZTC: attribute name of ZT identificatie en ZT datumgeldigheid is different in response resultaattype | #2473 | zaaktypeIdentificatie and datumgeldigheid in response | | use zaaktypeIdentificatie and datumgeldigheid from response |  |
 | Business rule ztc-011 is ambiguous and superfluous | #2471 | Do not implement ztc-011 | | Do not implement ztc-011. Do use ztc-010 (with adjustments - see below) and ztc-009 |  |
