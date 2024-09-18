@@ -2,11 +2,19 @@
 
 Recent changes
 
+- [2024.9.5: Api version header x.y.x](#202495-Api-version-header-in-response-now-has-three-positions)
 - [2024.8.10: Security patch](#2024810-security-patch)
 - [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
 - [2024.07.6: Logging 403-errors (no permission) improved](#2024076-logging-403-errors-improved)
 - [2024.07.4: Caching bug in ZT - IOT relationship solved](#2024074-caching-bug-in-zt---iot-relationship-solved)
-- [2024.06.14: ZCA UI fixes](#20240614-zca-ui-fixes)
+
+## 2024.9.5: Api version header in response now has three positions
+
+Release date: *18-09-2024*
+
+| Component   | Relevance for consumers (English) | Relevance for end users (Dutch) |
+| ----------- | --------------------------------- | ------------------------------- |
+| All modules | The Api-version header of responses now has format x.y.z (was x.y)||
 
 ## 2024.8.10: Security patch
 
