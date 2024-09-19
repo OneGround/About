@@ -2,12 +2,11 @@
 
 Recent changes
 
-- [Changelog](#changelog)
-  - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
-  - [2024.9.3: ZCA improvements](#202493-zca-improvements)
-  - [2024.8.10: Security patch](#2024810-security-patch)
-  - [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
-  - [2024.07.6: Logging 403 errors improved](#2024076-logging-403-errors-improved)
+- [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
+- [2024.9.3: ZCA improvements](#202493-zca-improvements)
+- [2024.8.10: Security patch](#2024810-security-patch)
+- [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
+- [2024.07.6: Logging 403 errors improved](#2024076-logging-403-errors-improved)
 
 ## 2024.9.5: Api version header in response now has three positions
 
