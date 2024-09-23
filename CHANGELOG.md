@@ -2,11 +2,22 @@
 
 Recent changes
 
+- [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-i-OneGround)
 - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
 - [2024.9.3: ZCA improvements](#202493-zca-improvements)
 - [2024.8.10: Security patch](#2024810-security-patch)
 - [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
-- [2024.07.6: Logging 403 errors improved](#2024076-logging-403-errors-improved)
+
+
+## 2024.9.16: The new name of Fundament is OneGround
+
+Release date: *23-09-2024*
+
+| Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
+| ----------- | ------------------------------------------------------------------ | ------------------------------- |
+| ZRC | Verblijfsadres in rol now accepts empty strings on all string fields| Van belang voor Open Forms die vaak lege strings mee stuurt|
+| ZTC | Fix on POST catalogue. It is now possible to create catalogues with all rsins.  ||
+| ZRC | Filter on GUID is now case insensitive | Van belang voor SOD |
 
 ## 2024.9.5: Api version header in response now has three positions
 
