@@ -9,7 +9,7 @@ Recent changes
 - [2024.8.10: Security patch](#2024810-security-patch)
 - [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
 
-## 2024.9.20: Fix for ClientID-problem in preprodd
+## 2024.9.20: Fix for ClientID-problem in preprod
 
 Release date: *25-09-2024*
 
