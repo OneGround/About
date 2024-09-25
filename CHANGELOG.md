@@ -16,7 +16,7 @@ Release date: *25-09-2024*
 | Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
 | ----------- | ------------------------------------------------------------------ | ------------------------------- |
 | All | Some ClientID's did not function in Preprod after the last release. This has been fixed | |
-| DRC | Before, not all mimetypes were accepted in field Format. Now all Iana mimetypes are accepted | Alle soorten doucmenten kunnen nu geupload worden, waaornder dwg-bestanden |
+| DRC | Before, not all mimetypes were accepted in field _formaat_. Now all Iana mimetypes are accepted | Alle soorten documenten kunnen nu geupload worden, waaronder dwg-bestanden |
 
 
 ## 2024.9.16: The new name of Fundament is OneGround
