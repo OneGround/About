@@ -2,11 +2,21 @@
 
 Recent changes
 
-- [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-i-OneGround)
+- [2024.9.20: Fix for ClientID-problem in preprod](#2024920-Fix-for-ClientID-problem-in-preprod)
+- [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-is-OneGround)
 - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
 - [2024.9.3: ZCA improvements](#202493-zca-improvements)
 - [2024.8.10: Security patch](#2024810-security-patch)
 - [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
+
+## 2024.9.20: Fix for ClientID-problem in preprodd
+
+Release date: *25-09-2024*
+
+| Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
+| ----------- | ------------------------------------------------------------------ | ------------------------------- |
+| All | Some ClientID's did not function in Preprod after the last release. This has been fixed | |
+| DRC | Before, not all mimetypes were accepted in field Format. Now all Iana mimetypes are accepted | Alle soorten doucmenten kunnen nu geupload worden, waaornder dwg-bestanden |
 
 
 ## 2024.9.16: The new name of Fundament is OneGround
