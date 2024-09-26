@@ -1,24 +1,20 @@
 # About OneGround
 
-- [About OneGround](#about-oneground)
-  - [What is OneGround](#what-is-oneground)
-  - [Characteristics of Fundament (attended)](#characteristics-of-fundament-attended)
-  - [Why are we saying this?](#why-are-we-saying-this)
-    - [Fast onboarding](#fast-onboarding)
-    - [High performance](#high-performance)
-    - [No limit on document size](#no-limit-on-document-size)
-    - [Support of the latest ZGW Api versions](#support-of-the-latest-zgw-api-versions)
-    - [Follows the standard as closely as possible](#follows-the-standard-as-closely-as-possible)
-    - [Fullfills NEN-ISO 16175](#fullfills-nen-iso-16175)
-    - [Built to comply only to the ZGW standards](#built-to-comply-only-to-the-zgw-standards)
-    - [Proven in production](#proven-in-production)
+- [What is OneGround](#what-is-oneground)
+- [Changelog](./CHANGELOG.md)
+- [Api Versions supported](./ApiVersions.md)
+- [Use of ClientID's on Fundament](./ClientID.md)
+- [Apply authorisations to ClientId's](./Authorisation.md)
+- [Usage of version headers in Fundament](./VersionHeader.md)
+- [Example document upload](./exampledocumentupload.md)
+- [Problems in and solutions for ZTC 1.3](./ztc1_3problemsandsolutions.md)
 
 ## What is OneGround
 
 Fundament is the implementation by Roxit of "case oriented" Api's and registrations according to the [VNG specifications](<https://vng-realisatie.github.io/gemma-zaken/standaard/>).
 It contains ZTC, ZRC, DRC, BRC, NC, AC and reference lists.
 
-Fundament comes in two ways: attended and unattended. Attended is the full Saas variant currently available. Unattended is the Open Source variant which will be released later. 
+Fundament comes in two ways: attended and unattended. Attended is the full Saas variant currently available. Unattended is the Open Source variant which will be released later.
 
 ## Characteristics of Fundament (attended)
 
