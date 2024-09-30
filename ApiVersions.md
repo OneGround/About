@@ -1,4 +1,4 @@
-# Versions of ZGW Api's supported by Fundament
+# Versions of ZGW Api's supported by OneGround
 
 ## AC
 
@@ -55,6 +55,6 @@
 
 ⚫ **Future**  - the version scheduled for deployment, which may be partially deployed in the current version.
   
-<em>Release</em> is the date at which Fundament started to support the vesrion in production. Subsequent changes (under the same Api version) can be found in the changelog.
+<em>Release</em> is the date at which OneGround started to support the vesrion in production. Subsequent changes (under the same Api version) can be found in the changelog.
 
 <em>End of Life</em> is the (expected) termination of support
