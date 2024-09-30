@@ -1,4 +1,4 @@
-# Usage of version headers in Fundament
+# Usage of version headers in OneGround
 Many applications built by Roxit and other vendors use the Api-version header. This might result in problems. The question is which version numbers may be used in the version header and when.
 
 ## What are the rules of the standard?
@@ -25,20 +25,20 @@ According to the Api Strategy, since 1.5.0 is released, the Api-version header m
 ## Considerations 
 - The Api stratgey should be leading in because ZGW-specs refer to this standard as leading;
 
-- Fundament does not support most intermediate ZGW-versions, but that is not relevant because our client applications also should run on other ZGW-implementations that might have other versions supported;
+- OneGround does not support most intermediate ZGW-versions, but that is not relevant because our client applications also should run on other ZGW-implementations that might have other versions supported;
 
 - Not all ZGW implementations support all version numbers, it therefore is unwise to request specific versions in the Api-version header;
 
 - Since newer minor versions are backwards compatible there normally is no reason to request specific versions in the header;
   
-- Support of older versions might be dropped by Fundament and other ZGW implementations;
+- Support of older versions might be dropped by OneGround and other ZGW implementations;
 
 - In general, specifying a specific version of the API will not prevent issues because of the introduction of bugs. That will only be true, when the bug is in the new API version code. But most bugs occur in the shared code and will also be present in the requested version. There is more risk that the specific version requested is removed from the API, because of the introduction of newer versions. In that case specifying a specific version will causing breaking the integration itself.
 
 ## Recommendations
-Only specify the Api-version header in API-calls to Fundament or other ZGW's in exceptional cases.
+Only specify the Api-version header in API-calls to OneGround or other ZGW's in exceptional cases.
 
-- Use a higher Api-version header then supported in (pre)production when testing a new version of the Api in Fundament with tools like Postman, Selenium, ..;
+- Use a higher Api-version header then supported in (pre)production when testing a new version of the Api in OneGround with tools like Postman, Selenium, ..;
 
-- Apply a higher Api-version header in specific methods of the Client Application when Fundament only supports that method of that version.
-For example, ZRC is on version 1.5.0 in production and some applications urgently needs a feature of 1.6.0 that is not yet implemented. Fundament then might serve temporarily only this specific method of 1.6.0, whereby the current version in production remains 1.5.0. The Client applications adds the Api-version header 1.6.0 only to this method and removes it after Fundament is on 1.6.
+- Apply a higher Api-version header in specific methods of the Client Application when OneGround only supports that method of that version.
+For example, ZRC is on version 1.5.0 in production and some applications urgently needs a feature of 1.6.0 that is not yet implemented. OneGround then might serve temporarily only this specific method of 1.6.0, whereby the current version in production remains 1.5.0. The Client applications adds the Api-version header 1.6.0 only to this method and removes it after OneGround is on 1.6.
