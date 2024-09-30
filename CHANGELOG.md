@@ -7,7 +7,7 @@ Recent changes
 - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
 - [2024.9.3: ZCA improvements](#202493-zca-improvements)
 - [2024.8.10: Security patch](#2024810-security-patch)
-- [2024.8.6: ZCA client applications for Fundament users](#202486-zca-client-applications-for-fundament-users)
+- [2024.8.6: ZCA client applications for OneGround users](#202486-zca-client-applications-for-OneGround-users)
 
 ## 2024.9.20: Fix for ClientID-problem in preprod
 
@@ -54,13 +54,13 @@ Release date: *21-08-2024*
 | ----------- | --------------------------------- | ------------------------------- |
 | All modules | Removed three vulnerabilities     |                                 |
 
-## 2024.8.6: ZCA client applications for Fundament users
+## 2024.8.6: ZCA client applications for OneGround users
 
 Release date: *20-08-2024*
 
 | Component   | Relevance for consumers (English)                                                                                          | Relevance for end users (Dutch)                                                                                              |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| All modules | Fundament users now have access to the ZCA UI in which they can configure their own ClientID's, secrets and authorisations | Fundamentgebruikers hebben nu toegang tot de ZCA-tool waarin ze zelf ClientID's, secrets en autorisaties kunnen configureren |
+| All modules | OneGround users now have access to the ZCA UI in which they can configure their own ClientID's, secrets and authorisations | OneGroundgebruikers hebben nu toegang tot de ZCA-tool waarin ze zelf ClientID's, secrets en autorisaties kunnen configureren |
 
 ## 2024.07.6: Logging 403 errors improved
 
@@ -108,7 +108,7 @@ Release date: *18-06-2024*
  | --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
  | DRC       | Ceph library  | The library for accessing Ceph, used for document storage, is updated to the newest version. This should improve error logging. | Geen                                                                                                                                                               |
  | ZCA       | Authorization | The authorization in ZCA now is entirely based on the activated modules in RAB and user permissions from RAB.                   | Het ZSDMS-menu is nu alleen benaderbaar voor gebuikers met de permissie functioneel beheer en alleen zichtbaar als uw organisatie de ZSDMS-module heeft afgenomen. |
- | ZCA       | Home page     | There is a home page in ZCA in which the permissions and available modules in Fundament are displayed.                          | Er is nu een landingspagina waarin de gebruiker permissies en modules van Fundament ziet.                                                                          |
+ | ZCA       | Home page     | There is a home page in ZCA in which the permissions and available modules in OneGround are displayed.                          | Er is nu een landingspagina waarin de gebruiker permissies en modules van OneGround ziet.                                                                          |
 
 ## 2024.06.4
 
@@ -125,7 +125,7 @@ Release date: *14-06-2024*
 | Component | Release item                   | Relevance for consumers (English)                                                                                                                                                  | Relevance for end users (Dutch)                                               |
 | --------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | DRC       | Business rule DRC-005 disabled | Status of document can be altered even if ontvangstdatum is filled (Api version 1.5 only, not previous versions)                                                                   | Status van het document kan veranderd worden ook al is ontvangstdatum gevuld. |
-| CSV       | Endpoint for ClientID's        | Api method for retrieving Api endpoints and credentials now supports filtering on application (rx.mission etc) and always returns information, be it for Fundament or external ZGW | Geen                                                                          |
+| CSV       | Endpoint for ClientID's        | Api method for retrieving Api endpoints and credentials now supports filtering on application (rx.mission etc) and always returns information, be it for OneGround or external ZGW | Geen                                                                          |
 
 ## 2024.06.2
 
@@ -141,4 +141,4 @@ Release date: *14-06-2024*
 
 | Component               | Release item                                   | Relevance for consumers (English)                                                                                                                                                                                                                                                                                                                                                                                             | Relevance for end users (Dutch) |
 | ----------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| All ZGW (change in CSV) | Authentication in ZCA/CSV New secrets endpoint | Authentication has been adjusted in preparation of making ZCA functions available for customers; There is a new endpoint on CSV for retrieving urls/secrets of external ZGW. In the case these are configured, it returns an array of components (DRC, ZRC etc) with ClientId, secret, and endpoint. In case Fundament is used, the same array is returned but without endpoints. The endpoint is a service to other modules. | Geen                            |
+| All ZGW (change in CSV) | Authentication in ZCA/CSV New secrets endpoint | Authentication has been adjusted in preparation of making ZCA functions available for customers; There is a new endpoint on CSV for retrieving urls/secrets of external ZGW. In the case these are configured, it returns an array of components (DRC, ZRC etc) with ClientId, secret, and endpoint. In case OneGround is used, the same array is returned but without endpoints. The endpoint is a service to other modules. | Geen                            |
