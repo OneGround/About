@@ -6,6 +6,7 @@ In the table below we list the Github issues and indicate how various Roxit comp
 
 | Problem (short) | Github issue | Solution in ZTC registration component itself   | Solution in ZRC, BRC or DRC                  | Solution in ZTC config app (PMA process, casetype management)     | Solution in client app      |
 |-----------------|--------------|-------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------|-----------------------------|
+| ztc-013 is unclear| [#2482](https://github.com/VNG-Realisatie/gemma-zaken/issues/2482) | Apply the rule only to roltype-zaaktype, eigenschap-zaaktype, statustype-zaaktype, zaaktypeinformatieobjecttype-zaaktype and resultaattype-zaaktype. |  |  | |
 | Filter on _status_ for object types without status unclear| [#2479](https://github.com/VNG-Realisatie/gemma-zaken/issues/2479) | Filter on status of related case type |  |  | |
 | Scope geforceerd verwijderen (forced delete) unclear| [#2478](https://github.com/VNG-Realisatie/gemma-zaken/issues/2478) | Scope must be ignored |  | Do not give the possibility to delete pubished types (in stead give the casetype an end date) | |
 | Scope geforceerd schrijven (forced update) superfluous| [#2477](https://github.com/VNG-Realisatie/gemma-zaken/issues/2477) | Scope must be ignored |  | Give a warning when correcting | |
