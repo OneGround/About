@@ -14,7 +14,7 @@ Release date: *3-10-2024*
 
 | Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
 | ----------- | ------------------------------------------------------------------ | ------------------------------- |
-| DRC | Last week, we released support of the Iana list of Mimetypes as prescribed by the standard. It appeared however that common mimetypes such as application/x-zip-compressed were not supported by Iana. Now we added a custom list of mimetypes | Het was door een wijziging van de ondersteunde mimetypes niet meer mogelijke bepaalde zipbestanden te uploaden. Dit is nu opgelost |
+| DRC | Last week, we released support of the Iana list of Mimetypes as prescribed by the standard. It appeared however that common mimetypes such as application/x-zip-compressed were not supported by Iana. Now we added a custom list of mimetypes including application/x-zip-compressed. | Het was door een wijziging van de ondersteunde mimetypes niet meer mogelijke bepaalde zipbestanden te uploaden. Dit is nu opgelost |
 
 ## 2024.9.20: Fix for ClientID-problem in preprod
 
