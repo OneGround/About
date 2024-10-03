@@ -2,12 +2,19 @@
 
 Recent changes
 
+- [2024.10.2: Mimetype fix](#2024102-Mimetype-fix)
 - [2024.9.20: Fix for ClientID-problem in preprod](#2024920-Fix-for-ClientID-problem-in-preprod)
 - [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-is-OneGround)
 - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
 - [2024.9.3: ZCA improvements](#202493-zca-improvements)
-- [2024.8.10: Security patch](#2024810-security-patch)
-- [2024.8.6: ZCA client applications for OneGround users](#202486-zca-client-applications-for-OneGround-users)
+
+## 2024.10.2: Mimetype fix
+
+Release date: *3-10-2024*
+
+| Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
+| ----------- | ------------------------------------------------------------------ | ------------------------------- |
+| DRC | Last week, we released support of the Iana list of Mimetypes as prescribed by the standard. It appeared however that common mimetypes such as application/x-zip-compressed were not supported by Iana. Now we added a custom list of mimetypes | Het was door een wijziging van de ondersteunde mimetypes niet meer mogelijke bepaalde zipbestanden te uploaden. Dit is nu opgelost |
 
 ## 2024.9.20: Fix for ClientID-problem in preprod
 
