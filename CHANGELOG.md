@@ -2,11 +2,21 @@
 
 Recent changes
 
+- [2024.11.11: Expiration date of secret](#20241111-Expiration-date-of-secret)
 - [2024.10.2: Mimetype fix](#2024102-Mimetype-fix)
 - [2024.9.20: Fix for ClientID-problem in preprod](#2024920-Fix-for-ClientID-problem-in-preprod)
 - [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-is-OneGround)
 - [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
-- [2024.9.3: ZCA improvements](#202493-zca-improvements)
+
+## 2024.11.11: Expiration date of secret
+
+Release date: *19-11-2024*
+
+| Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
+| ----------- | ------------------------------------------------------------------ | ------------------------------- |
+| ZCA | ZCA now stores and shows the expiration date of the secret (two years from now). Each new secret will have expire two years from the date of its creation/rotation | De huidige secrets zijn vanaf nu nog maar twee jaar geldig. Nieuwe secrets verlopen twee jaar nadat ze zijn aangemaakt. |
+| ZCA | 'Fundament' in the UI has been translated to 'Oneground' | 'Fundament'is vertaald naar 'Oneground'|
+| All | Security patch | Veligheidsaanpassing | 
 
 ## 2024.10.2: Mimetype fix
 
