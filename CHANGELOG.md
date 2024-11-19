@@ -14,9 +14,9 @@ Release date: *19-11-2024*
 
 | Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
 | ----------- | ------------------------------------------------------------------ | ------------------------------- |
-| ZCA | ZCA now stores and shows the expiration date of the secret (two years from now). Each new secret will have expire two years from the date of its creation/rotation | De huidige secrets zijn vanaf nu nog maar twee jaar geldig. Nieuwe secrets verlopen twee jaar nadat ze zijn aangemaakt. |
-| ZCA | 'Fundament' in the UI has been translated to 'Oneground' | 'Fundament'is vertaald naar 'Oneground'|
-| All | Security patch | Veligheidsaanpassing | 
+| ZCA | ZCA now stores and shows the expiration date of the secret (two years from now). Each new secret will  expire two years from the date of its creation/rotation | De huidige secrets zijn vanaf nu nog maar twee jaar geldig. Nieuwe secrets verlopen twee jaar nadat ze zijn aangemaakt. |
+| ZCA | 'Fundament' in the UI has been translated to 'Oneground' | 'Fundament' is vertaald naar 'Oneground'|
+| All | Security patch | Veiligheidsaanpassing | 
 
 ## 2024.10.2: Mimetype fix
 
