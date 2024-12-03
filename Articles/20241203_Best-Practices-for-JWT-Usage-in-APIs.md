@@ -20,7 +20,7 @@ To maximize security, we recommend the following best practices:
 
 JWT claims are key-value pairs encoded into the token's payload. While you can include custom claims based on your API's needs, several standard claims form the backbone of a well-constructed JWT:
 
-* **iss (Issuer):** Identifies the entity that issued the JWT. Always explicitly set the `iss` claim to indicate the origin of the token. Both the API and consuming applications should agree on the expected `iss` value in advance. Tokens with missing or incorrect `iss` values may be rejected by the API for security purposes.
+* **iss (Issuer):** Identifies the entity that issued the JWT. Always explicitly set the `iss` claim to indicate the origin of the token. Both the API and consuming applications should agree on the expected `iss` value in advance, and the application generating the JWT should include its name or link in this claim. Tokens with missing or incorrect `iss` values may be rejected by the API for security purposes.
 
 * **exp (Expiration Time):** Sets the token's expiration date and time using a Unix timestamp. This ensures the token cannot be used indefinitely, even if it is compromised.
 
