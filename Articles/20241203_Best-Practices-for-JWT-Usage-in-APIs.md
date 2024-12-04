@@ -48,7 +48,15 @@ When implementing JWT functionality in your applications, selecting the correct 
 * Use well-established libraries that are actively maintained, widely used, and trusted for their security.
 * Keep libraries up to date to address vulnerabilities and use dependency management tools to track outdated versions.
 * Avoid building custom implementations for JWT tokens, as they can lead to security gaps and missed edge-case scenarios.
-  
+
+### 5. Assign Each Client ID to a Single Application (`client_id`)
+
+Each JWT token should be associated with a unique client ID for improved security and accountability, which must be dedicated to only one application.
+
+* **Traceability:** Enables effective tracking and auditing of each client’s actions.
+* **Prevent Token Sharing:** Ensures tokens are not shared across multiple clients, minimizing the risk of unauthorized access.
+* **Revocation:** Allows tokens issued to specific clients to be revoked without disrupting others.
+
 ## Final Thoughts
 
 JWT tokens are a powerful tool for securing APIs, but their effectiveness depends on proper configuration and usage. By following the best practices - such as setting appropriate claims, and limiting token lifetime — you can build a robust and secure authentication system for your APIs.
