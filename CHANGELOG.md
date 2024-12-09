@@ -2,7 +2,7 @@
 
 Recent changes
 
-- [2024.24.9: ZTC 1.3](#2024249-ZTC-1.3)
+- [2024.12.9: ZTC 1.3](#2024249-ZTC-1.3)
 - [2024.11.11: Expiration date of secret](#20241111-Expiration-date-of-secret)
 - [2024.10.2: Mimetype fix](#2024102-Mimetype-fix)
 - [2024.9.20: Fix for ClientID-problem in preprod](#2024920-Fix-for-ClientID-problem-in-preprod)
