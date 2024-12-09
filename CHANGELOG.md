@@ -2,11 +2,22 @@
 
 Recent changes
 
+- [2024.24.9: ZTC 1.3](#2024249-ZTC-1.3)
 - [2024.11.11: Expiration date of secret](#20241111-Expiration-date-of-secret)
 - [2024.10.2: Mimetype fix](#2024102-Mimetype-fix)
 - [2024.9.20: Fix for ClientID-problem in preprod](#2024920-Fix-for-ClientID-problem-in-preprod)
 - [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-is-OneGround)
-- [2024.9.5: Api version header in response now has three positions](#202495-api-version-header-in-response-now-has-three-positions)
+
+## 2024.12.9: ZTC 1.3
+| Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
+| ----------- | ------------------------------------------------------------------ | ------------------------------- |
+| ZTC | Version 1.3 of the ZTC is now supported ||
+|	ZRC | Solved: expand on roltype was not supported ||	
+|	ZRC | Solved: expand on deelzaken and hoofdzaken was not supported	 ||
+|	ZTC | Solved: GET statustype returns null for non-nullable field	 ||
+|	ZRC | Solved: Zaken GET all returns null when not allowed	 ||
+|	ZRC | Solved: Field names in response of zaken GET All should be lowercase	 ||
+
 
 ## 2024.11.11: Expiration date of secret
 
