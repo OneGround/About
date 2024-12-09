@@ -9,6 +9,9 @@ Recent changes
 - [2024.9.16: The new name of Fundament is OneGround](#2024916-The-new-name-of-Fundament-is-OneGround)
 
 ## 2024.12.9: ZTC 1.3
+
+Release date: *8-12-2024*
+
 | Component   | Relevance for consumers (English)                                  | Relevance for end users (Dutch) |
 | ----------- | ------------------------------------------------------------------ | ------------------------------- |
 | ZTC | Version 1.3 of the ZTC is now supported ||
